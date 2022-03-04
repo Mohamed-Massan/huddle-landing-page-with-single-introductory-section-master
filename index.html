@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&family=Outfit:wght@700&family=Poppins&display=swap');
+    body{
+      background-image: url(images/bg-mobile.svg);
+      background-size: 100%;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-color: hsl(257, 40%, 49%) ;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+    nav{
+      padding: 30px 20px 0 20px;
+    }
+    .container{
+      padding: 50px 20px 50px 20px;
+    }
+    .logo{
+      width: 150px;
+
+    }
+
+
+    .mockups{
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+  
+    }
+    .text{
+      margin-top: 60px;
+      text-align: center;
+      color: #fff;
+    
+
+    }
+    .text h1{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+    }
+
+    button{
+      background-color: hsl(0, 0%, 100%);
+      width: 200px;
+      padding: 10px;
+      font-size: 20px;
+      color: hsl(257, 40%, 49%);
+      border-radius: 50px;
+      border: none;
+      margin-top: 30px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      cursor: pointer;
+    }
+    ion-icon{
+      color: white;
+      padding: 5px;
+      margin: 5px;
+      border: 1px solid white;
+      border-radius: 50%;
+      font-size: 20px;
+    }
+    footer{
+      text-align: center;
+      padding: 50px;
+    }
+
+    @media only screen and (min-width: 992px){
+    
+     body{
+       background-image: url('images/bg-desktop.svg');
+       background-size: cover;
+     }
+      .container{
+       display: flex;
+     }
+     .mockups{
+       width: 50%;
+     }
+     .text{
+       text-align: justify;
+       padding: 0 60px 0 60px;
+     }
+     footer{
+       text-align: right;
+       margin-top: -120px;
+     }
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <nav><img class="logo" src="images/logo.svg" alt="logo"></nav>
+  <div class="container">
+    
+    
+    <img class="mockups" src="images/illustration-mockups.svg" alt="image" >
+    <div class="text">
+      <h1> Build The Community Your  Fans Will Love</h1>
+      <p> Huddle re-imagines the way we build communities. You have  a voice, but so does your audience. 
+  Create connections with your  users as you engage in genuine discussion. 
+</p>
+      <button >Register</button>
+    </div>
+    </div>
+
+ 
+
+ 
+  
+
+  <footer>
+    <ion-icon name="logo-facebook"></ion-icon>
+    <ion-icon name="logo-twitter"></ion-icon>
+    <ion-icon name="logo-instagram"></ion-icon>
+
+  
+  </footer>
+</body>
+</html>
